@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+    <!-- Sign in-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-40dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="0dp"
+            android:fontFamily="@font/andikanewbasic_bold"
+            android:gravity="center"
+            android:paddingTop="20dp"
+            android:rotation="-90"
+            android:text="@string/sign_up"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="40dp"
+            android:fontFamily="@font/quicksand_semibold"
+            android:gravity="center_vertical"
+            android:text="@string/vpa"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:background="@color/transparent"
+            android:fontFamily="@font/quicksand_light"
+            android:hint="@string/n" />
+
+        <!-- Email -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@color/transparent"
+            android:fontFamily="@font/quicksand_light"
+            android:hint="@string/p" />
+    </LinearLayout>
+
+
+    <!-- Forgot Password -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/quicksand_light"
+        android:text="@string/fp" />
+
+    <!-- Ok -->
+    <LinearLayout
+
+        android:layout_width="112dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ok"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/quicksand_semibold"
+            android:gravity="center"
+            android:text="@string/ok"
+            android:textColor="@color/light_green"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/right_arrow"
+            android:contentDescription="@null" />
+
+    </LinearLayout>
+
+    <!-- First Time -->
+    <LinearLayout
+
+        android:layout_width="188dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60dp"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/quicksand_light"
+            android:gravity="center"
+            android:text="@string/ft"
+            android:textColor="@color/white" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/quicksand_bold"
+            android:layout_marginLeft="10dp"
+            android:hint="@string/sign_up"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
